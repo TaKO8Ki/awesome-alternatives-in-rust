@@ -34,10 +34,10 @@
 * [cjbassi/ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust
 * [ClementTsang/bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 
-## `tldr`
+## [`tldr`](https://github.com/tldr-pages/tldr)
 
 * [dbrgn/tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
 
-## `nvm`
+## [`nvm`](https://github.com/nvm-sh/nvm)
 
 * [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust

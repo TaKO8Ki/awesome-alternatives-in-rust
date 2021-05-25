@@ -1,0 +1,57 @@
+---
+"https://github.com/BurntSushi/ripgrep":
+  last_working: "2021-05-25T23:55:05.283073+09:00"
+  updated_at: "2021-05-25T23:55:05.283063+09:00"
+  working: "Yes"
+"https://github.com/ClementTsang/bottom":
+  last_working: "2021-05-25T23:55:05.335184+09:00"
+  updated_at: "2021-05-25T23:55:05.335173+09:00"
+  working: "Yes"
+"https://github.com/Peltoche/lsd":
+  last_working: "2021-05-25T23:55:05.227521+09:00"
+  updated_at: "2021-05-25T23:55:05.227517+09:00"
+  working: "Yes"
+"https://github.com/Schniz/fnm":
+  last_working: "2021-05-25T23:55:05.365683+09:00"
+  updated_at: "2021-05-25T23:55:05.365673+09:00"
+  working: "Yes"
+"https://github.com/bootandy/dust":
+  last_working: "2021-05-25T23:55:05.357133+09:00"
+  updated_at: "2021-05-25T23:55:05.357124+09:00"
+  working: "Yes"
+"https://github.com/chmln/sd":
+  last_working: "2021-05-25T23:55:05.227248+09:00"
+  updated_at: "2021-05-25T23:55:05.227238+09:00"
+  working: "Yes"
+"https://github.com/cjbassi/ytop":
+  last_working: "2021-05-25T23:55:05.243169+09:00"
+  updated_at: "2021-05-25T23:55:05.243159+09:00"
+  working: "Yes"
+"https://github.com/dalance/procs":
+  last_working: "2021-05-25T23:55:05.124046+09:00"
+  updated_at: "2021-05-25T23:55:05.124034+09:00"
+  working: "Yes"
+"https://github.com/dbrgn/tealdeer":
+  last_working: "2021-05-25T23:55:05.272851+09:00"
+  updated_at: "2021-05-25T23:55:05.272841+09:00"
+  working: "Yes"
+"https://github.com/nvm-sh/nvm":
+  last_working: "2021-05-25T23:55:05.522768+09:00"
+  updated_at: "2021-05-25T23:55:05.522756+09:00"
+  working: "Yes"
+"https://github.com/ogham/exa":
+  last_working: "2021-05-25T23:55:05.055546+09:00"
+  updated_at: "2021-05-25T23:55:05.055536+09:00"
+  working: "Yes"
+"https://github.com/sharkdp/bat":
+  last_working: "2021-05-25T23:55:05.218900+09:00"
+  updated_at: "2021-05-25T23:55:05.218891+09:00"
+  working: "Yes"
+"https://github.com/sharkdp/fd":
+  last_working: "2021-05-25T23:55:05.415559+09:00"
+  updated_at: "2021-05-25T23:55:05.415548+09:00"
+  working: "Yes"
+"https://github.com/tldr-pages/tldr":
+  last_working: "2021-05-25T23:55:13.822012+09:00"
+  updated_at: "2021-05-25T23:55:13.822+09:00"
+  working: "Yes"
