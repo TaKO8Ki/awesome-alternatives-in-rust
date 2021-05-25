@@ -9,7 +9,7 @@
 
 * [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 
-## `fd`
+## `find`
 
 * [sharkdp/fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
 
