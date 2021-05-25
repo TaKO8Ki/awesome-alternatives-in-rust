@@ -59,7 +59,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-          os: [ubuntu-latest, macos-latest] I’m 
+          os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     needs: check
     steps:
