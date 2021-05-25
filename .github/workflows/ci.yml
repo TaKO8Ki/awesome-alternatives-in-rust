@@ -63,7 +63,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Cache cargo registry
-        if: runner.os != 'macOS'
         uses: actions/cache@v1
         with:
           path: ~/.cargo/registry
@@ -74,10 +73,14 @@ jobs:
           path: ~/.cargo/git
           key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
       - name: Cache cargo build
-        if: runner.os != 'macOS'
         uses: actions/cache@v1
         with:
           path: target
           key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
+      - name: Cache results
+        uses: actions/cache@v1
+        with:
+          path: results
+          key: ${{ runner.os }}-results-${{ hashFiles('**/results.yml') }}
       - name: Run Tests
         run: cargo run

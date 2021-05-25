@@ -2,8 +2,8 @@
 
 ## `ls`
 
-* [ogham/exa](https://github.com/ogham/exa) — A replacement for 'ls' 
-* [Peltoche/lsd](https://github.com/Peltoche/lsd) — An ls with a lot of pretty colors and awesome icons
+* [ogham/exa](https://github.com/ogham/exa) - A replacement for 'ls' 
+* [Peltoche/lsd](https://github.com/Peltoche/lsd) - An ls with a lot of pretty colors and awesome icons
 
 ## `cat`
 

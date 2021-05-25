@@ -248,7 +248,7 @@ async fn main() -> Result<(), Error> {
     let parser = Parser::new(&markdown_input);
 
     let mut used: BTreeSet<String> = BTreeSet::new();
-    let mut results: Results = fs::read_to_string("results/results.yaml")
+    let mut results: Results = fs::read_to_string("results/results.yml")
         .map_err(|e| format_err!("{}", e))
         .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
         .unwrap_or(Results::new());
@@ -297,7 +297,7 @@ async fn main() -> Result<(), Error> {
     for link in old_links {
         results.remove(link).unwrap();
     }
-    fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
+    fs::write("results/results.yml", serde_yaml::to_string(&results)?)?;
 
     let mut not_written = 0;
     let mut last_written = Local::now();
@@ -345,12 +345,12 @@ async fn main() -> Result<(), Error> {
         not_written += 1;
         let duration = Local::now() - last_written;
         if duration > Duration::seconds(5) || not_written > 20 {
-            fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
+            fs::write("results/results.yml", serde_yaml::to_string(&results)?)?;
             not_written = 0;
             last_written = Local::now();
         }
     }
-    fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
+    fs::write("results/results.yml", serde_yaml::to_string(&results)?)?;
     println!("");
     let mut failed: u32 = 0;
 
