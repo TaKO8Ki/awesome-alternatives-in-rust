@@ -53,7 +53,7 @@ jobs:
         run: cargo clippy
 
   test:
-    name: Unit Tests
+    name: Tests
     strategy:
       fail-fast: false
       matrix:
