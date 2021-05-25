@@ -6,11 +6,9 @@ on:
       - main
     paths-ignore:
       - 'LICENSE'
-      - '**.md'
   pull_request:
     paths-ignore:
       - 'LICENSE'
-      - '**.md'
 
 jobs:
   format:
@@ -55,7 +53,7 @@ jobs:
         run: cargo clippy
 
   test:
-    name: Unit Tests
+    name: Tests
     strategy:
       fail-fast: false
       matrix:
