@@ -41,3 +41,7 @@
 ## [`nvm`](https://github.com/nvm-sh/nvm)
 
 * [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
+
+## `rm`
+
+* [nivekuil/rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to rm
