@@ -2,6 +2,21 @@
 
 If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Table of contents
+
+- [cat](#cat)
+- [du](#du)
+- [find](#find)
+- [grep](#grep)
+- [hexdump](#hexdump)
+- [ls](#ls)
+- [nvm](#nvm)
+- [ps](#ps)
+- [rm](#rm)
+- [sed](#sed)
+- [tldr](#tldr)
+- [top](#top)
+
 ## cat
 
 * [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
