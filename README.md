@@ -72,6 +72,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### [tldr](https://github.com/tldr-pages/tldr)
 
+* [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
 * [tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
 
 #### top
