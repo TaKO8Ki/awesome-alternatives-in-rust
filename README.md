@@ -26,9 +26,9 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### System tools
 
-#### cat
+#### less
 
-* [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
+* [bat](https://github.com/sharkdp/bat) - `less` with syntax highlighting and speed
 
 #### [cloc](https://github.com/AlDanial/cloc)
 
