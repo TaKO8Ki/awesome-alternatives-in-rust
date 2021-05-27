@@ -73,6 +73,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### sed
 
+* [sad](https://github.com/ms-jpq/sad) - CLI search and replace | Space Age seD
 * [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
 
 #### time
