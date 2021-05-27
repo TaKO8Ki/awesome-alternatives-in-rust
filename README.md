@@ -26,10 +26,6 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### System tools
 
-#### less
-
-* [bat](https://github.com/sharkdp/bat) - `less` with syntax highlighting and speed
-
 #### [cloc](https://github.com/AlDanial/cloc)
 
 * [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
@@ -57,6 +53,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 #### hexdump
 
 * [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
+
+#### less
+
+* [bat](https://github.com/sharkdp/bat) - `less` with syntax highlighting and speed
 
 #### ls
 
