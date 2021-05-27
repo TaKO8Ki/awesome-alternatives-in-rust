@@ -50,6 +50,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [skim](https://github.com/lotabout/skim) - Fuzzy Finder in rust!
 
+#### [GNU coreutils](https://github.com/coreutils/coreutils)
+
+* [coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
+
 #### hexdump
 
 * [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
