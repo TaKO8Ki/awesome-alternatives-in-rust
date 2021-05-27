@@ -89,7 +89,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### Vim
 
-* [amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
+* [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
 
 ### Text processing
 
