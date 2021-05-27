@@ -29,6 +29,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 
+#### [cloc](https://github.com/AlDanial/cloc)
+
+* [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
+
 #### cut
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
