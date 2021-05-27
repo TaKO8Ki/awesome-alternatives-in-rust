@@ -40,6 +40,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### du
 
+* [dua](https://github.com/Byron/dua-cli) - View disk space usage and delete unwanted data, fast.
 * [dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
 
 #### find
