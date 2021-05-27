@@ -50,5 +50,5 @@ j
 
 ## top
 
-* [cjbassi/ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust
 * [ClementTsang/bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
+* [cjbassi/ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust
