@@ -11,6 +11,8 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
   - [Container](#container)
   - [System tools](#system-tools)
   - [Text processing](#text-processing)
+- [Development tools](#development-tools)
+  - [Linters](#linters)
 
 ## Applications
 
@@ -78,3 +80,11 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 #### grep
 
 * [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+
+## Development tools 
+
+### Linters
+
+#### [ESLint](https://github.com/eslint/eslint)
+
+* [RSLint](https://github.com/rslint/rslint) - A (WIP) Extremely fast JavaScript and TypeScript linter and Rust crate
