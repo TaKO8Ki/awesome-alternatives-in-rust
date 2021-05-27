@@ -1,4 +1,4 @@
-# Awesome RIIR
+# Awesome Rewrite It In Rust (RIIR)
 
 ## `ls`
 
