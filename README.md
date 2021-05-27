@@ -1,4 +1,5 @@
-# Awesome Rewrite It In Rust (RIIR) [![github workflow status](https://img.shields.io/github/workflow/status/TaKO8Ki/awesome-rewrite-it-in-rust/CI/main)](https://github.com/TaKO8Ki/awesome-rewrite-it-in-rust/actions)
+# Awesome Rewrite It In Rust (RIIR)
+[![github workflow status](https://img.shields.io/github/workflow/status/TaKO8Ki/awesome-rewrite-it-in-rust/CI/main)](https://github.com/TaKO8Ki/awesome-rewrite-it-in-rust/actions)
 
 A curated list of replacements for existing software written in Rust.
 
