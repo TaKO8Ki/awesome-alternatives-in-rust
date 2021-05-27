@@ -28,6 +28,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 
+#### cut
+
+* [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
+
 #### du
 
 * [dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
