@@ -9,7 +9,6 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
     - [cat](#cat)
     - [du](#du)
     - [find](#find)
-    - [grep](#grep)
     - [hexdump](#hexdump)
     - [ls](#ls)
     - [nvm](#nvm)
@@ -19,6 +18,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
     - [tldr](#tldr)
     - [top](#top)
   - [Text processing](#text-processing)
+    - [grep](#grep)
 
 ## Applications
 
@@ -26,15 +26,15 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### cat
 
-* [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
+* [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 
 #### du
 
-* [bootandy/dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
+* [dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
 
 #### find
 
-* [sharkdp/fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
+* [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
 
 #### hexdump
 
@@ -42,16 +42,16 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### ls
 
-* [ogham/exa](https://github.com/ogham/exa) - A replacement for 'ls' 
-* [Peltoche/lsd](https://github.com/Peltoche/lsd) - An ls with a lot of pretty colors and awesome icons
+* [exa](https://github.com/ogham/exa) - A replacement for 'ls' 
+* [lsd](https://github.com/Peltoche/lsd) - An ls with a lot of pretty colors and awesome icons
 
 #### [nvm](https://github.com/nvm-sh/nvm)
 
-* [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
+* [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
 
 #### ps
 
-* [dalance/procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
+* [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
 
 #### rm
 
@@ -59,19 +59,19 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### sed
 
-* [chmln/sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
+* [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
 
 #### [tldr](https://github.com/tldr-pages/tldr)
 
-* [dbrgn/tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
+* [tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
 
 #### top
 
-* [ClementTsang/bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
-* [cjbassi/ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust
+* [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
+* [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust
 
 ### Text processing
 
 #### grep
 
-* [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+* [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
