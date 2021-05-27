@@ -70,6 +70,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
 
+#### time
+
+* [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+
 #### [tldr](https://github.com/tldr-pages/tldr)
 
 * [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
