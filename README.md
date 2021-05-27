@@ -91,6 +91,12 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
 
+### Terminal
+
+#### [tmux](https://github.com/tmux/tmux)
+
+* [Zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
+
 ### Text editors
 
 #### Vim
