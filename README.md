@@ -10,6 +10,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Applications](#applications)
   - [Container](#container)
   - [System tools](#system-tools)
+  - [Terminal](#terminal)
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
 - [Development tools](#development-tools)
