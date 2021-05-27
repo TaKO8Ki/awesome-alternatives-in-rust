@@ -8,8 +8,8 @@ The easiest way is to go to [README.md](README.md) and click on the "pen" icon i
 
 If you want to add an entry to the `README.md` please consider this:
 
-- if you want to add something, please use the template `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) [[CRATE](https://crates.io/crates/CRATE)] — DESCRIPTION`
-    * if you've not published your crate to `crates.io` remove the `[[CRATE](...)]` part.
+- if you want to add something, please use the template `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) — DESCRIPTION`
+- if you want to add categories, please refer to categories in [awesome-rust](https://github.com/rust-unofficial/awesome-rust).
 - please pay attention to the alphabetical ordering.
 
 
