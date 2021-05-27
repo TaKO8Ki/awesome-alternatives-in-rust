@@ -34,6 +34,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
 
+#### [fzf](https://github.com/junegunn/fzf)
+
+* [skim](https://github.com/lotabout/skim) - Fuzzy Finder in rust!
+
 #### hexdump
 
 * [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
