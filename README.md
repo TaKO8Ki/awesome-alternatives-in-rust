@@ -1,6 +1,6 @@
 # Awesome Rewrite It In Rust (RIIR)
 
-A curated list of replacements written in Rust for existing software.
+A curated list of replacements for existing software written in Rust.
 
 If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
