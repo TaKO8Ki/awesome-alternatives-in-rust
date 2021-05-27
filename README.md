@@ -62,6 +62,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 #### [nvm](https://github.com/nvm-sh/nvm)
 
 * [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
+* [volta](https://github.com/volta-cli/volta) - Volta: JS Toolchains as Code. ⚡
 
 #### ps
 
