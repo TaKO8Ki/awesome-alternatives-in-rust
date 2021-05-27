@@ -83,7 +83,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 #### top
 
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
-* [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust
+* [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
 
 ### Text editors
 
