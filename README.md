@@ -120,6 +120,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### [ESLint](https://github.com/eslint/eslint)
 
+* [deno_lint](https://github.com/denoland/deno_lint) - Blazing fast linter for JavaScript and TypeScript written in Rust
 * [RSLint](https://github.com/rslint/rslint) - A (WIP) Extremely fast JavaScript and TypeScript linter and Rust crate
 
 #### [ShellCheck](https://github.com/koalaman/shellcheck)
