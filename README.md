@@ -1,5 +1,7 @@
 # Awesome Rewrite It In Rust (RIIR)
 
+If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## `cat`
 
 * [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
