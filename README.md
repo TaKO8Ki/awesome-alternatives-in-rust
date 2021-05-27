@@ -8,19 +8,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 - [Applications](#applications)
   - [System tools](#system-tools)
-    - [cat](#cat)
-    - [du](#du)
-    - [find](#find)
-    - [hexdump](#hexdump)
-    - [ls](#ls)
-    - [nvm](#nvm)
-    - [ps](#ps)
-    - [rm](#rm)
-    - [sed](#sed)
-    - [tldr](#tldr)
-    - [top](#top)
   - [Text processing](#text-processing)
-    - [grep](#grep)
 
 ## Applications
 
