@@ -10,6 +10,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Applications](#applications)
   - [Container](#container)
   - [System tools](#system-tools)
+  - [Text editors](#text-editors)
   - [Text processing](#text-processing)
 - [Development tools](#development-tools)
   - [Linters](#linters)
@@ -83,6 +84,12 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust
+
+### Text editors
+
+#### Vim
+
+* [amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
 
 ### Text processing
 
