@@ -18,6 +18,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 
+## hexdump
+
+* [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
+
 ## ls
 
 * [ogham/exa](https://github.com/ogham/exa) - A replacement for 'ls' 
