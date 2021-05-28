@@ -12,7 +12,6 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
-  - [Text processing](#text-processing)
   - [Utilities](#utilities)
 - [Development tools](#development-tools)
   - [Linters](#linters)
@@ -109,12 +108,6 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 #### Vim
 
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
-
-### Text processing
-
-#### grep
-
-* [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 
 ### Utilities
 
