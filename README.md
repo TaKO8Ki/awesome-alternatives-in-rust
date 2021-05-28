@@ -13,6 +13,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
+  - [Utilities](#utilities)
 - [Development tools](#development-tools)
   - [Linters](#linters)
 
@@ -114,6 +115,12 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 #### grep
 
 * [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+
+### Utilities
+
+#### [codemod](https://github.com/facebook/codemod)
+
+* [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
 ## Development tools 
 
