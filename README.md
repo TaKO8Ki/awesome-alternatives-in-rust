@@ -124,6 +124,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
+#### [jq](https://stedolan.github.io/jq)
+
+* [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
+
 ## Development tools
 
 ### Command runners
