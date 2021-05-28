@@ -134,6 +134,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
 
+#### [Python](https://www.python.org)
+
+* [RustPython](https://rustpython.github.io) - A Python 3 interpreter written in Rust
+
 ## Development tools
 
 ### Command runners
