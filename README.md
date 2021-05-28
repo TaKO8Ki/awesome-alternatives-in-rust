@@ -49,6 +49,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
 
+#### diff
+
+* [delta](https://github.com/dandavison/delta) - A viewer for git and diff output.
+
 #### du
 
 * [dua](https://github.com/Byron/dua-cli) - View disk space usage and delete unwanted data, fast.
