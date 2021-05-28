@@ -65,7 +65,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### ls
 
-* [exa](https://github.com/ogham/exa) - A replacement for 'ls' 
+* [exa](https://github.com/ogham/exa) - A replacement for 'ls'
 * [lsd](https://github.com/Peltoche/lsd) - An ls with a lot of pretty colors and awesome icons
 * [nat](https://github.com/willdoescode/nat) - `ls` alternative with useful info and a splash of color 🎨
 
