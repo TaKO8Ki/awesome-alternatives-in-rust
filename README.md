@@ -1,9 +1,11 @@
-# Awesome Rewrite It In Rust ([RIIR](https://transitiontech.ca/random/RIIR))
+# Awesome Alternatives in Rust
 [![github workflow status](https://img.shields.io/github/workflow/status/TaKO8Ki/awesome-rewrite-it-in-rust/CI/main)](https://github.com/TaKO8Ki/awesome-rewrite-it-in-rust/actions)
 
 A curated list of replacements for existing software written in Rust.
 
 If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+
+I renamed the repository name to "Awesome Alternatives in Rust". The original name was "Awesome Rewrite It In Rust". For more details, please refer to [this issue](https://github.com/TaKO8Ki/awesome-rewrite-it-in-rust/issues/29).
 
 ## Table of contents
 
