@@ -54,6 +54,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [dua](https://github.com/Byron/dua-cli) - View disk space usage and delete unwanted data, fast.
 * [dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
 
+#### diff
+
+* [delta](https://github.com/dandavison/delta) - A viewer for git and diff output
+
 #### find
 
 * [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
