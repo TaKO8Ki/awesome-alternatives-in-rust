@@ -14,6 +14,7 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
   - [Text editors](#text-editors)
   - [Utilities](#utilities)
 - [Development tools](#development-tools)
+  - [Command runners](#command-runners)
   - [Linters](#linters)
 
 ## Applications
