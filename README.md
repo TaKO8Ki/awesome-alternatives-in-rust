@@ -98,6 +98,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [sad](https://github.com/ms-jpq/sad) - CLI search and replace | Space Age seD
 * [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
 
+#### strings
+
+* [stringsext](https://github.com/getreu/stringsext) - Find multi-byte-encoded strings in binary data
+
 #### time
 
 * [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
