@@ -31,6 +31,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 * [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command for your terminal.
 
+#### awk
+
+* [frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
+
 #### cat
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
