@@ -26,6 +26,10 @@ If you want to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### System tools
 
+#### autojump / z
+
+* [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command for your terminal.
+
 #### cat
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
