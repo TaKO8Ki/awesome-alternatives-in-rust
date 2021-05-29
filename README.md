@@ -130,6 +130,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
 
+#### uniq
+
+* [huniq](https://github.com/koraa/huniq) - Filter out duplicates on the command line.
+
 ### Terminal
 
 #### [tmux](https://github.com/tmux/tmux)
