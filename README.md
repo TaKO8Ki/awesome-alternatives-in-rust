@@ -51,6 +51,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [loc](https://github.com/cgag/loc) - Count lines of code quickly.
 * [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
 
+#### [coreboot](https://github.com/coreboot/coreboot)
+
+* [oreboot](https://github.com/oreboot/oreboot) - oreboot is a fork of coreboot, with C removed, written in Rust. 
+
 #### cut
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
