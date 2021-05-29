@@ -142,7 +142,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### grep
 
-* [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignorei
+* [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 
 ### Utilities
 
