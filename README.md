@@ -150,6 +150,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
 
+#### [lazygit](https://github.com/jesseduffield/lazygit)
+
+* [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
+
 ## Development tools
 
 ### Command runners
