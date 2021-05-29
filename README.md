@@ -11,7 +11,6 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 - [Applications](#applications)
   - [Container](#container)
-  - [Package managers](#package-managers)
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
@@ -28,12 +27,6 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [runc](https://github.com/opencontainers/runc)
 
 * [youki](https://github.com/utam0k/youki) - An experimental container runtime written in Rust
-
-### Package managers
-
-#### [yay](https://github.com/Jguer/yay)
-
-* [paru](https://github.com/Morganamilo/paru/) - Feature packed AUR helper
 
 ### System tools
 
@@ -136,6 +129,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
+
+#### [yay](https://github.com/Jguer/yay)
+
+* [paru](https://github.com/Morganamilo/paru) - Feature packed AUR helper
 
 ### Terminal
 
