@@ -136,6 +136,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
 
+#### [termite](https://github.com/thestinger/termite)
+
+* [Alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
+
 ### Text editors
 
 #### Vim
