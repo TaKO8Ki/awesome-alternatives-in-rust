@@ -14,6 +14,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
+  - [Text processing](#text-processing)
   - [Utilities](#utilities)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
@@ -70,10 +71,6 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [GNU coreutils](https://github.com/coreutils/coreutils)
 
 * [coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
-
-#### grep
-
-* [grep](https://github.com/BurntSushi/ripgrep) - A replacement for grep
 
 #### hexdump
 
@@ -132,6 +129,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### Vim
 
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
+
+### Text processing
+
+#### grep
+
+* [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignorei
 
 ### Utilities
 
