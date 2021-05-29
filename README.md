@@ -81,9 +81,13 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
 * [volta](https://github.com/volta-cli/volta) - Volta: JS Toolchains as Code. ⚡
 
+#### please
+
+* [please](https://github.com/dalance/procs) - `sudo` like program with regex support written in rust
+
 #### ps
 
-* [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
+* [procs](https://gitlab.com/edneville/please) - A modern replacement for ps written in Rust
 
 #### [rbenv](https://github.com/rbenv/rbenv)
 
