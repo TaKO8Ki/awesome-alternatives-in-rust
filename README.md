@@ -76,6 +76,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
 
+#### [httpie](https://github.com/httpie/httpie)
+
+* [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
+
 #### ls
 
 * [exa](https://github.com/ogham/exa) - A replacement for 'ls'
