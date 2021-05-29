@@ -118,7 +118,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
 
-#### [httpie](https://httpie.io/)
+#### [httpie](https://github.com/httpie/httpie)
 
 * [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
 
