@@ -37,6 +37,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
 
+#### bash/PowerShell/fish
+
+* [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
+
 #### cat
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
