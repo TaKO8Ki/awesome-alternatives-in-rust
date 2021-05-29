@@ -19,6 +19,8 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
   - [Linters](#linters)
+- [Libraries](#libraries)
+  - [Email](#email)
 
 ## Applications
 
@@ -178,3 +180,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [ShellCheck](https://github.com/koalaman/shellcheck)
 
 * [Shellharden](https://github.com/anordal/shellharden) - The corrective bash syntax highlighter
+
+### Libraries
+
+#### Email
+
+* [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of [mjml](https://mjml.io) in Rust (~200x faster)
