@@ -71,6 +71,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
 
+#### grep
+
+* [grep](https://github.com/BurntSushi/ripgrep) - A replacement for grep
+
 #### hexdump
 
 * [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
