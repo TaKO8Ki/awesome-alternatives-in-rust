@@ -14,7 +14,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
-  - [Text processing](#text_processing)
+  - [Text processing](#text-processing)
   - [Utilities](#utilities)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
