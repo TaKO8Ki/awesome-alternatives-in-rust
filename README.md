@@ -87,7 +87,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### ps
 
-* [procs](https://gitlab.com/edneville/please) - A modern replacement for ps written in Rust
+* [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
 
 #### [rbenv](https://github.com/rbenv/rbenv)
 
