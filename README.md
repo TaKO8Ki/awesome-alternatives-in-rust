@@ -183,6 +183,6 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Libraries
 
-#### Email
+#### [mjml](https://github.com/mjmlio/mjml)
 
-* [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of [mjml](https://mjml.io) in Rust (~200x faster)
+* [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of mjml in Rust (~200x faster)
