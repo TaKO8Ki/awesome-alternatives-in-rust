@@ -56,6 +56,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
 
+#### dig
+
+* [dog](https://github.com/ogham/dog) - A command-line DNS client. 
+
 #### du
 
 * [dua](https://github.com/Byron/dua-cli) - View disk space usage and delete unwanted data, fast.
