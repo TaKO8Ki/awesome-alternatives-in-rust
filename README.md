@@ -143,6 +143,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [huniq](https://github.com/koraa/huniq) - Filter out duplicates on the command line.
 
+#### [yay](https://github.com/Jguer/yay)
+
+* [paru](https://github.com/Morganamilo/paru) - Feature packed AUR helper
+
 ### Terminal
 
 #### [tmux](https://github.com/tmux/tmux)
