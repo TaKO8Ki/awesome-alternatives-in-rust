@@ -52,6 +52,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [loc](https://github.com/cgag/loc) - Count lines of code quickly.
 * [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
 
+#### cp
+
+* [xcp](https://github.com/tarka/xcp) - An extended `cp`
+
 #### cut
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
