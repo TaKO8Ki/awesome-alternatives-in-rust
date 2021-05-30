@@ -11,6 +11,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 - [Applications](#applications)
   - [Container](#container)
+  - [Performance](#performance)
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
@@ -28,6 +29,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [runc](https://github.com/opencontainers/runc)
 
 * [youki](https://github.com/utam0k/youki) - An experimental container runtime written in Rust
+
+### Performance
+
+#### [jMeter](https://github.com/apache/jmeter)
+
+* [drill](https://github.com/fcsonline/drill) - A HTTP load testing application written in Rust
 
 ### System tools
 
