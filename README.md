@@ -16,6 +16,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
   - [Utilities](#utilities)
+  - [Web](#web)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
   - [Linters](#linters)
@@ -161,6 +162,16 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [lazygit](https://github.com/jesseduffield/lazygit)
 
 * [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
+
+### Web
+
+#### [Reddit](https://www.reddit.com/)
+
+* [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust 
+
+#### [teddit](https://codeberg.org/teddit/teddit)
+
+* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust 
 
 ## Development tools
 
