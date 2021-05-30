@@ -14,7 +14,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
+  - [Text processing](#text-processing)
   - [Utilities](#utilities)
+  - [Web](#web)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
   - [Linters](#linters)
@@ -37,13 +39,22 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
 
+#### bash/PowerShell/fish
+
+* [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
+
 #### cat
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 
 #### [cloc](https://github.com/AlDanial/cloc)
 
+* [loc](https://github.com/cgag/loc) - Count lines of code quickly.
 * [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
+
+#### cp
+
+* [xcp](https://github.com/tarka/xcp) - An extended `cp`
 
 #### cut
 
@@ -52,6 +63,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### diff
 
 * [delta](https://github.com/dandavison/delta) - A viewer for git and diff output.
+
+#### dig
+
+* [dog](https://github.com/ogham/dog) - A command-line DNS client.
 
 #### du
 
@@ -73,6 +88,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### hexdump
 
 * [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
+
+#### [httpie](https://github.com/httpie/httpie)
+
+* [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
 
 #### ls
 
@@ -102,6 +121,14 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [sad](https://github.com/ms-jpq/sad) - CLI search and replace | Space Age seD
 * [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
 
+#### strings
+
+* [stringsext](https://github.com/getreu/stringsext) - Find multi-byte-encoded strings in binary data
+
+#### sudo
+
+* [please](https://gitlab.com/edneville/please) - `sudo` like program with regex support written in rust
+
 #### time
 
 * [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
@@ -116,6 +143,14 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
 
+#### uniq
+
+* [huniq](https://github.com/koraa/huniq) - Filter out duplicates on the command line.
+
+#### [yay](https://github.com/Jguer/yay)
+
+* [paru](https://github.com/Morganamilo/paru) - Feature packed AUR helper
+
 ### Terminal
 
 #### [tmux](https://github.com/tmux/tmux)
@@ -128,6 +163,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
 
+### Text processing
+
+#### grep
+
+* [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+
 ### Utilities
 
 #### [codemod](https://github.com/facebook/codemod)
@@ -137,6 +178,20 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [jq](https://github.com/stedolan/jq)
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
+
+#### [lazygit](https://github.com/jesseduffield/lazygit)
+
+* [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
+
+### Web
+
+#### [Reddit](https://www.reddit.com/)
+
+* [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust 
+
+#### [teddit](https://codeberg.org/teddit/teddit)
+
+* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust 
 
 ## Development tools
 
