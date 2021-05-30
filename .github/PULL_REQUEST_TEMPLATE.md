@@ -1,4 +1,4 @@
-Thank you for making awesome-rewrite-it-in-rust better!
+Thank you for making awesome-alternatives-in-rust better!
 
 Here's a checklist for things that will be checked during review or continuous integration.
 
