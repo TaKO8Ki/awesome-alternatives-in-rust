@@ -60,9 +60,13 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
 
+#### diff
+
+* [delta](https://github.com/dandavison/delta) - A viewer for git and diff output
+
 #### dig
 
-* [dog](https://github.com/ogham/dog) - A command-line DNS client. 
+* [dog](https://github.com/ogham/dog) - A command-line DNS client.
 
 #### du
 
