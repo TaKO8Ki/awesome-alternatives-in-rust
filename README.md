@@ -39,6 +39,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
 
+#### bc
+
+* [eva](https://github.com/NerdyPepper/eva) - a calculator REPL, similar to bc(1) 
+
 #### bash/PowerShell/fish
 
 * [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
