@@ -42,6 +42,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### bash/PowerShell/fish
 
 * [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
+* [starship](https://github.com/starship/starship) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 #### cat
 
