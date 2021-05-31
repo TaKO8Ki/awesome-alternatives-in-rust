@@ -157,6 +157,11 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
 
+#### csv
+
+* [xsv](https://github.com/BurntSushi/xsv) - A fast CSV command line toolkit written in Rust.
+* [csview](https://github.com/wfxr/csview) - A high performance csv viewer with cjk/emoji support.
+
 ### Text editors
 
 #### Vim
