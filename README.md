@@ -16,6 +16,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
   - [Utilities](#utilities)
+  - [Web](#web)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
   - [Linters](#linters)
@@ -53,11 +54,23 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [coreboot](https://github.com/coreboot/coreboot)
 
-* [oreboot](https://github.com/oreboot/oreboot) - oreboot is a fork of coreboot, with C removed, written in Rust. 
+* [oreboot](https://github.com/oreboot/oreboot) - oreboot is a fork of coreboot, with C removed, written in Rust.
+
+#### cp
+
+* [xcp](https://github.com/tarka/xcp) - An extended `cp`
 
 #### cut
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
+
+#### diff
+
+* [delta](https://github.com/dandavison/delta) - A viewer for git and diff output
+
+#### dig
+
+* [dog](https://github.com/ogham/dog) - A command-line DNS client.
 
 #### du
 
@@ -134,6 +147,14 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
 
+#### uniq
+
+* [huniq](https://github.com/koraa/huniq) - Filter out duplicates on the command line.
+
+#### [yay](https://github.com/Jguer/yay)
+
+* [paru](https://github.com/Morganamilo/paru) - Feature packed AUR helper
+
 ### Terminal
 
 #### [tmux](https://github.com/tmux/tmux)
@@ -165,6 +186,16 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [lazygit](https://github.com/jesseduffield/lazygit)
 
 * [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
+
+### Web
+
+#### [Reddit](https://www.reddit.com/)
+
+* [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust 
+
+#### [teddit](https://codeberg.org/teddit/teddit)
+
+* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust 
 
 ## Development tools
 
