@@ -161,6 +161,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
 
+#### [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
+
+* [starship](https://github.com/starship/starship) - ☄️🌌 The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+
 ### Text editors
 
 #### Vim
