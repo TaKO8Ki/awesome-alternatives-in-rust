@@ -162,7 +162,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
-#### [Python](https://www.python.org)
+#### [Python](https://github.com/python/cpython)
 
 * [RustPython](https://rustpython.github.io) - A Python 3 interpreter written in Rust
 
