@@ -203,6 +203,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [just](https://github.com/casey/just) - A command runner and partial replacement for `make`
 
+### Compilers
+
+#### [TypeScript Compiler](https://github.com/microsoft/TypeScript)
+
+* [swc](https://github.com/swc-project/swc) - swc is a super-fast compiler written in rust
+
 ### Linters
 
 #### [ESLint](https://github.com/eslint/eslint)
