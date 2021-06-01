@@ -19,6 +19,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Web](#web)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
+  - [Compilers](#compilers)
   - [Linters](#linters)
 
 ## Applications
