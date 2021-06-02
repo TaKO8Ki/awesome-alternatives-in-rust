@@ -43,6 +43,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
 
+#### bc
+
+* [eva](https://github.com/NerdyPepper/eva) - a calculator REPL, similar to bc(1) 
+
 #### cat
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
