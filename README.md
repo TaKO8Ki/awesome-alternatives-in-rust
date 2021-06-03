@@ -11,6 +11,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 - [Applications](#applications)
   - [Container](#container)
+  - [Games](#games)
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
@@ -28,6 +29,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [runc](https://github.com/opencontainers/runc)
 
 * [youki](https://github.com/utam0k/youki) - An experimental container runtime written in Rust
+
+### Games
+
+#### [Stockfish](https://github.com/official-stockfish/Stockfish/)
+
+* [Pleco](https://github.com/sfleischman105/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
 
 ### System tools
 
