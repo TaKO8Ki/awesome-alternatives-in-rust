@@ -228,3 +228,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [ShellCheck](https://github.com/koalaman/shellcheck)
 
 * [Shellharden](https://github.com/anordal/shellharden) - The corrective bash syntax highlighter
+
+### Runtimes
+
+#### [Node.js](https://github.com/nodejs/node)
+
+* [deno](https://github.com/denoland/deno) - A secure JavaScript and TypeScript runtime 
