@@ -183,7 +183,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
 
                         warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
-                            res = Err(CheckerError::HttpError {status: status.as_u16(), location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
+                            res = Err(CheckerError::HttpError {status: status.as_u16(), location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().map(|x| x.to_string()).ok())});
                             break;
                         } else {
                             res = Err(CheckerError::HttpError {status: status.as_u16(), location: None});
@@ -202,16 +202,16 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             res = Err(CheckerError::TravisBuildUnknown);
                             break;
                         }
-                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
-                        if !query.starts_with("?") || query.find("branch=").is_none() {
+                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or_default();
+                        if !query.starts_with('?') || query.contains("branch=") {
                             res = Err(CheckerError::TravisBuildNoBranch);
                             break;
                         }
                     }
                     if let Some(matches) = GITHUB_ACTIONS_REGEX.captures(&url) {
                         debug!("Github actions match {:?}", matches);
-                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
-                        if !query.starts_with("?") || query.find("branch=").is_none() {
+                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or_default();
+                        if !query.starts_with('?') || query.contains("branch=") {
                             res = Err(CheckerError::GithubActionNoBranch);
                             break;
                         }
@@ -251,27 +251,26 @@ async fn main() -> Result<(), Error> {
     let mut results: Results = fs::read_to_string("results/results.yml")
         .map_err(|e| format_err!("{}", e))
         .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
-        .unwrap_or(Results::new());
+        .unwrap_or_default();
 
     let mut url_checks = vec![];
 
     let min_between_checks: Duration = Duration::days(3);
     let max_allowed_failed: Duration = Duration::days(7);
     let mut do_check = |url: String| {
-        if !url.starts_with("http") {
-            return;
-        }
-        used.insert(url.clone());
-        if let Some(link) = results.get(&url) {
-            if let Working::Yes = link.working {
-                let since = Local::now() - link.updated_at;
-                if since < min_between_checks {
-                    return;
+        if url.starts_with("http") {
+            used.insert(url.clone());
+            if let Some(link) = results.get(&url) {
+                if let Working::Yes = link.working {
+                    let since = Local::now() - link.updated_at;
+                    if since < min_between_checks {
+                        return;
+                    }
                 }
             }
+            let check = get_url(url).boxed();
+            url_checks.push(check);
         }
-        let check = get_url(url).boxed();
-        url_checks.push(check);
     };
 
     for (event, _) in parser.into_offset_iter() {
@@ -292,7 +291,7 @@ async fn main() -> Result<(), Error> {
         }
     }
 
-    let results_keys = results.keys().cloned().collect::<BTreeSet<String>>();
+    let results_keys: BTreeSet<String> = results.keys().cloned().collect();
     let old_links = results_keys.difference(&used);
     for link in old_links {
         results.remove(link).unwrap();
@@ -301,7 +300,7 @@ async fn main() -> Result<(), Error> {
 
     let mut not_written = 0;
     let mut last_written = Local::now();
-    while url_checks.len() > 0 {
+    while !url_checks.is_empty() {
         debug!("Waiting for {}", url_checks.len());
         let ((url, res), _index, remaining) = select_all(url_checks).await;
         url_checks = remaining;
@@ -351,7 +350,7 @@ async fn main() -> Result<(), Error> {
         }
     }
     fs::write("results/results.yml", serde_yaml::to_string(&results)?)?;
-    println!("");
+    println!();
     let mut failed: u32 = 0;
 
     for (url, link) in results.iter() {
@@ -386,8 +385,7 @@ async fn main() -> Result<(), Error> {
         }
     }
     if failed == 0 {
-        println!("No errors!");
-        Ok(())
+        Ok(println!("No errors!"))
     } else {
         Err(format_err!("{} urls with errors", failed))
     }

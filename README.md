@@ -11,6 +11,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 - [Applications](#applications)
   - [Container](#container)
+  - [Games](#games)
   - [Performance](#performance)
   - [System tools](#system-tools)
   - [Terminal](#terminal)
@@ -29,6 +30,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [runc](https://github.com/opencontainers/runc)
 
 * [youki](https://github.com/utam0k/youki) - An experimental container runtime written in Rust
+
+### Games
+
+#### [Stockfish](https://github.com/official-stockfish/Stockfish/)
+
+* [Pleco](https://github.com/sfleischman105/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
 
 ### Performance
 
@@ -50,6 +57,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
 
+#### bc
+
+* [eva](https://github.com/NerdyPepper/eva) - a calculator REPL, similar to bc(1) 
+
 #### cat
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
@@ -58,6 +69,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [loc](https://github.com/cgag/loc) - Count lines of code quickly.
 * [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
+
+#### [coreboot](https://github.com/coreboot/coreboot)
+
+* [oreboot](https://github.com/oreboot/oreboot) - oreboot is a fork of coreboot, with C removed, written in Rust.
 
 #### cp
 
@@ -163,6 +178,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [tmux](https://github.com/tmux/tmux)
 
 * [Zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
+
+#### [Spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
+
+* [starship](https://github.com/starship/starship) - ☄️🌌 The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 ### Text editors
 
