@@ -29,7 +29,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [runc](https://github.com/opencontainers/runc)
 
-* [youki](https://github.com/utam0k/youki) - An experimental container runtime written in Rust
+* [youki](https://github.com/containers/youki) - An experimental container runtime written in Rust
 
 ### Games
 
