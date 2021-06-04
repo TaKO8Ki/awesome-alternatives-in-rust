@@ -12,6 +12,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 - [Applications](#applications)
   - [Container](#container)
   - [Games](#games)
+  - [Performance](#performance)
   - [System tools](#system-tools)
   - [Terminal](#terminal)
   - [Text editors](#text-editors)
@@ -35,6 +36,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [Stockfish](https://github.com/official-stockfish/Stockfish/)
 
 * [Pleco](https://github.com/sfleischman105/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
+
+### Performance
+
+#### [jMeter](https://github.com/apache/jmeter)
+
+* [drill](https://github.com/fcsonline/drill) - A HTTP load testing application written in Rust
 
 ### System tools
 
@@ -206,11 +213,11 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [Reddit](https://www.reddit.com/)
 
-* [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust 
+* [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust
 
 #### [teddit](https://codeberg.org/teddit/teddit)
 
-* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust 
+* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust
 
 ## Development tools
 
