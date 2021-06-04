@@ -194,11 +194,11 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [Reddit](https://www.reddit.com/)
 
-* [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust 
+* [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust
 
 #### [teddit](https://codeberg.org/teddit/teddit)
 
-* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust 
+* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust
 
 ## Development tools
 
