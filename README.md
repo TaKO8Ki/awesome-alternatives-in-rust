@@ -181,7 +181,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Shellharden](https://github.com/anordal/shellharden) - The corrective bash syntax highlighter
 
-### Libraries
+## Libraries
+
+### Email
 
 #### [mjml](https://github.com/mjmlio/mjml)
 
