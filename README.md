@@ -204,10 +204,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [Zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
 
 ### Text editors
-
-#### Vim
-
+#### Modal editing
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
+* [Helix](https://helix-editor.com/) - A post-modern text editor.
 
 ### Text processing
 
