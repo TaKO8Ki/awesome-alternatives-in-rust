@@ -140,6 +140,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to rm
 
+#### rename
+
+* [rnr](https://github.com/ChuckDaniels87/rnr) - A command-line tool to batch rename files and directories
+
 #### sed
 
 * [sad](https://github.com/ms-jpq/sad) - CLI search and replace | Space Age seD
