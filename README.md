@@ -136,13 +136,13 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [frum](https://github.com/TaKO8Ki/frum) - A little bit fast and modern Ruby version manager written in Rust
 
-#### rm
-
-* [rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to rm
-
 #### rename
 
 * [rnr](https://github.com/ChuckDaniels87/rnr) - A command-line tool to batch rename files and directories
+
+#### rm
+
+* [rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to rm
 
 #### sed
 
