@@ -61,6 +61,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### bc
 
+* [cpc](https://github.com/probablykasper/cpc) - Text calculator with support for units and conversion
 * [eva](https://github.com/NerdyPepper/eva) - a calculator REPL, similar to bc(1) 
 
 #### cat
