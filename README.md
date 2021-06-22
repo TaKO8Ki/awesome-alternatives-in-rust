@@ -204,7 +204,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Utilities
 
-#### [codemod](https://github.com/facebook/codemod)
+#### [codemod](https://github.com/facebookarchive/codemod)
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
