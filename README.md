@@ -230,6 +230,8 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Command runners
 
+#### make
+
 * [just](https://github.com/casey/just) - A command runner and partial replacement for `make`
 
 ### Linters
