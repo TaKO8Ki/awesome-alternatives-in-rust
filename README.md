@@ -1,5 +1,5 @@
 # Awesome Alternatives in Rust
-[![github workflow status](https://img.shields.io/github/workflow/status/TaKO8Ki/awesome-alternatives-in-rust/CI/main)](https://github.com/TaKO8Ki/awesome-alternatives-in-rust/actions)
+[![github workflow status](https://img.shields.io/github/workflow/status/TaKO8Ki/awesome-alternatives-in-rust/CI/main)](https://github.com/TaKO8Ki/awesome-alternatives-in-rust/actions) [![stakes.social](https://badge.devprotocol.xyz/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd/descriptive)](https://stakes.social/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd)
 
 A curated list of replacements for existing software written in Rust.
 
@@ -233,6 +233,8 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 ## Development tools
 
 ### Command runners
+
+#### make
 
 * [just](https://github.com/casey/just) - A command runner and partial replacement for `make`
 
