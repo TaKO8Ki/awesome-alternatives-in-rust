@@ -84,6 +84,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### cut
 
 * [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to cut and (sometimes) awk
+* [hck](https://github.com/sstadick/hck) - A sharp cut(1) clone
 
 #### diff
 
