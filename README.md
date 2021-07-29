@@ -57,8 +57,8 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### bash/PowerShell/fish
 
-* [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
 * [ion](https://github.com/redox-os/ion) - A modern shell developed for RedoxOS. But is still capable on \*nix platforms.
+* [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
 
 #### bc
 
