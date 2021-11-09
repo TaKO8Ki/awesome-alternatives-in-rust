@@ -247,7 +247,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [deno_lint](https://github.com/denoland/deno_lint) - Blazing fast linter for JavaScript and TypeScript written in Rust
 * [RSLint](https://github.com/rslint/rslint) - A (WIP) Extremely fast JavaScript and TypeScript linter and Rust crate
 
-#### [prettier](https://github.com/prettier/prettier)
+#### [Prettier](https://github.com/prettier/prettier)
 
 * [dprint](https://github.com/dprint/dprint) - Pluggable and configurable code formatting platform written in Rust.
 
