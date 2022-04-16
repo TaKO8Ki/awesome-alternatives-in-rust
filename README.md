@@ -159,6 +159,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [please](https://gitlab.com/edneville/please) - `sudo` like program with regex support written in rust
 
+#### sysctl
+
+* [systeroid](https://github.com/orhun/systeroid) - A more powerful alternative to `sysctl` with a terminal user interface
+
 #### time
 
 * [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
