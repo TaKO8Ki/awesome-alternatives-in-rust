@@ -39,6 +39,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Pleco](https://github.com/sfleischman105/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
 
+### Observability
+
+#### [Elasticsearch](https://github.com/elastic/elasticsearch)
+
+* [Quickwit](https://github.com/quickwit-oss/quickwit) - 🔎 A cloud-native search engine built for logs written in Rust
+
 ### Performance
 
 #### [jMeter](https://github.com/apache/jmeter)
@@ -224,6 +230,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [lazygit](https://github.com/jesseduffield/lazygit)
 
 * [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
+
+### Text Search
+
+#### [lucene](https://github.com/apache/lucene)
+
+* [tantivy](https://github.com/quickwit-oss/tantivy) - 🐎 A horse-speed, full-text search engine library written in Rust
 
 ### Web
 
