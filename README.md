@@ -130,6 +130,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
 * [volta](https://github.com/volta-cli/volta) - Volta: JS Toolchains as Code. ⚡
 
+#### [Midnight Commander](https://github.com/MidnightCommander/mc)
+
+* [broot](https://github.com/Canop/broot) - A better way to navigate directories
+
 #### ps
 
 * [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
