@@ -37,7 +37,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [Stockfish](https://github.com/official-stockfish/Stockfish/)
 
-* [Pleco](https://github.com/sfleischman105/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
+* [Pleco](https://github.com/pleco-rs/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
 
 ### Performance
 
@@ -241,7 +241,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [teddit](https://codeberg.org/teddit/teddit)
 
-* [libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit written in Rust
+* [libreddit](https://github.com/libreddit/libreddit) - Private front-end for Reddit written in Rust
 
 ## Development tools
 
