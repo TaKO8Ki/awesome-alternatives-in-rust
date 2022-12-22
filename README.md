@@ -1,5 +1,5 @@
 # Awesome Alternatives in Rust
-[![github workflow status](https://img.shields.io/github/workflow/status/TaKO8Ki/awesome-alternatives-in-rust/CI/main)](https://github.com/TaKO8Ki/awesome-alternatives-in-rust/actions) [![stakes.social](https://badge.devprotocol.xyz/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd/descriptive)](https://stakes.social/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd)
+[![github workflow status](https://img.shields.io/github/actions/workflow/status/TaKO8Ki/awesome-alternatives-in-rust/ci.yml?branch=main)](https://github.com/TaKO8Ki/awesome-alternatives-in-rust/actions) [![stakes.social](https://badge.devprotocol.xyz/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd/descriptive)](https://stakes.social/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd)
 
 A curated list of replacements for existing software written in Rust.
 
