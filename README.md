@@ -94,6 +94,11 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [dog](https://github.com/ogham/dog) - A command-line DNS client.
 
+
+#### [dotenv](https://github.com/motdotla/dotenv)
+
+* [json_env](https://github.com/brodo/json_env) - dotenv but in Rust and with JSON config files.
+
 #### du
 
 * [dua](https://github.com/Byron/dua-cli) - View disk space usage and delete unwanted data, fast.
