@@ -233,6 +233,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
+#### [qrencode](https://github.com/fukuchi/libqrencode)
+
+* [qrtool](https://github.com/sorairolake/qrtool) - An utility for encoding or decoding QR code
+
 ### Web
 
 #### [Reddit](https://www.reddit.com/)
