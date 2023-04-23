@@ -22,6 +22,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
   - [Linters](#linters)
+  - [Testing](#testing)
 - [Libraries](#libraries)
   - [Email](#email)
 
@@ -265,6 +266,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [ShellCheck](https://github.com/koalaman/shellcheck)
 
 * [Shellharden](https://github.com/anordal/shellharden) - The corrective bash syntax highlighter
+
+### Testing
+
+#### [RobotFramework](https://github.com/robotframework/robotframework)
+
+* [botwork](https://github.com/nitimis/botwork) - A single-binary, generic and open-source automation framework for acceptance testing, ATDD & RPA
 
 ## Libraries
 
