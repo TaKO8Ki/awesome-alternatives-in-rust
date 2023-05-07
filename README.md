@@ -173,6 +173,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [tldr](https://github.com/tldr-pages/tldr)
 
+* [intelli-shell](https://github.com/lasantosr/intelli-shell) - A bookmark storage for commands with label support
 * [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
 * [tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
 
