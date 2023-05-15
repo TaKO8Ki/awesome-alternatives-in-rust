@@ -89,6 +89,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### diff
 
 * [delta](https://github.com/dandavison/delta) - A viewer for git and diff output
+* [difftastic](https://github.com/Wilfred/difftastic) - A structural diff that understands syntax
 
 #### dig
 
