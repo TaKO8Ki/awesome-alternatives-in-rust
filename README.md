@@ -233,6 +233,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
+#### [Toggl Track](https://github.com/toggl/toggldesktop)
+
+* [Furtherance](https://github.com/lakoliu/Furtherance) - Time-tracking app written in Rust
+
 ### Web
 
 #### [Reddit](https://www.reddit.com/)
