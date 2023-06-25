@@ -16,8 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cargo fmt
-        run: cargo fmt --all -- --check
+      - run: cargo fmt --all -- --check
 
   check:
     name: Check
@@ -25,8 +24,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: Swatinem/rust-cache@v2
-      - name: Cargo check
-        run: cargo check
+      - run: cargo check
+      - run: cargo run
 
   lint:
     name: Lint
@@ -36,17 +35,4 @@ jobs:
       - uses: Swatinem/rust-cache@v2
       - name: Add clippy
         run: rustup component add clippy
-      - name: Run lint
-        run: cargo clippy
-
-  test:
-    name: Tests
-    strategy:
-      fail-fast: false
-    runs-on: ubuntu-latest
-    needs: check
-    steps:
-      - uses: actions/checkout@v2
-      - uses: Swatinem/rust-cache@v2
-      - name: Run Tests
-        run: cargo run
+      - run: cargo clippy
