@@ -1,5 +1,5 @@
 # Awesome Alternatives in Rust
-[![github workflow status](https://img.shields.io/github/actions/workflow/status/TaKO8Ki/awesome-alternatives-in-rust/ci.yml?branch=main)](https://github.com/TaKO8Ki/awesome-alternatives-in-rust/actions) [![stakes.social](https://badge.devprotocol.xyz/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd/descriptive)](https://stakes.social/0xC65ca20B670aa65fDd05DEBAFBF02D3387F316Cd)
+[![github workflow status](https://img.shields.io/github/actions/workflow/status/TaKO8Ki/awesome-alternatives-in-rust/ci.yml?branch=main)](https://github.com/TaKO8Ki/awesome-alternatives-in-rust/actions)
 
 A curated list of replacements for existing software written in Rust.
 
@@ -123,7 +123,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### ls
 
 * [exa](https://github.com/ogham/exa) - A replacement for 'ls'
-* [lsd](https://github.com/Peltoche/lsd) - An ls with a lot of pretty colors and awesome icons
+* [lsd](https://github.com/lsd-rs/lsd) - An ls with a lot of pretty colors and awesome icons
 * [nat](https://github.com/willdoescode/nat) - `ls` alternative with useful info and a splash of color 🎨
 
 #### [nvm](https://github.com/nvm-sh/nvm)
@@ -226,7 +226,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
-#### [jq](https://github.com/stedolan/jq)
+#### [jq](https://github.com/jqlang/jq)
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
 
