@@ -32,21 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cache cargo registry
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/registry
-          key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache cargo index
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/git
-          key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache cargo build
-        uses: actions/cache@v1
-        with:
-          path: target
-          key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
+      - uses: Swatinem/rust-cache@v2
       - name: Add clippy
         run: rustup component add clippy
       - name: Run lint
@@ -60,25 +46,6 @@ jobs:
     needs: check
     steps:
       - uses: actions/checkout@v2
-      - name: Cache cargo registry
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/registry
-          key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache cargo index
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/git
-          key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache cargo build
-        uses: actions/cache@v1
-        with:
-          path: target
-          key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache results
-        uses: actions/cache@v1
-        with:
-          path: results
-          key: ${{ runner.os }}-results-${{ hashFiles('**/results.yml') }}
+      - uses: Swatinem/rust-cache@v2
       - name: Run Tests
         run: cargo run
