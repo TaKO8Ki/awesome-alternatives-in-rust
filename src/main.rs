@@ -79,9 +79,9 @@ impl MaxHandles {
         }
     }
 
-    async fn get<'a>(&'a self) -> Handle<'a> {
+    async fn get(&self) -> Handle<'_> {
         let permit = self.remaining.acquire().await;
-        return Handle { _permit: permit };
+        Handle { _permit: permit }
     }
 }
 
@@ -108,7 +108,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
     debug!("Need handle for {}", url);
     async move {
         let _handle = HANDLES.get().await;
-        return get_url_core(url).await;
+        get_url_core(url).await
     }
     .boxed()
 }
