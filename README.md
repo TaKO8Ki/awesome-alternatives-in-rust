@@ -240,7 +240,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Web
 
-#### [Reddit](https://www.reddit.com/)
+#### Reddit
 
 * [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust
 
