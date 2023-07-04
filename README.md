@@ -151,6 +151,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to rm
 
+#### [scrypt](https://github.com/Tarsnap/scrypt)
+
+* [rscrypt](https://github.com/sorairolake/rscrypt) - An utility for encrypt and decrypt files
+
 #### sed
 
 * [sad](https://github.com/ms-jpq/sad) - CLI search and replace | Space Age seD
