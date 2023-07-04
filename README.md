@@ -278,3 +278,11 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [mjml](https://github.com/mjmlio/mjml)
 
 * [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of mjml in Rust (~200x faster)
+
+## Productivity
+
+### Project & Issue tracking
+
+### [Jirust](https://github.com/moali87/jirust)
+
+* [Jirust](https://github.com/moali87/jirust) - An engineer focused Jira TUI 
