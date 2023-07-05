@@ -213,6 +213,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### Vim
 
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
+* [helix[(https://helix-editor.com) - A post-modern text editor
 
 ### Text processing
 
