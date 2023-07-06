@@ -24,6 +24,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Linters](#linters)
 - [Libraries](#libraries)
   - [Email](#email)
+  - [MachineLearning](#machine-learning)
 
 ## Applications
 
@@ -278,3 +279,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [mjml](https://github.com/mjmlio/mjml)
 
 * [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of mjml in Rust (~200x faster)
+
+### MachineLearning
+
+#### [tch-rs](https://github.com/LaurentMazare/tch-rs)
+
+* [tch-rs](https://docs.rs/tch/latest/tch/) - Rust bindings for the C++ api of PyTorch
