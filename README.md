@@ -271,6 +271,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Shellharden](https://github.com/anordal/shellharden) - The corrective bash syntax highlighter
 
+#### [Flake8](https://flake8.pycqa.org/)
+
+* [ruff](https://beta.ruff.rs/docs/) - lint and fix 40x faster than flake8
+
 ## Libraries
 
 ### Email
