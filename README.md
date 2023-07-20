@@ -21,6 +21,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Web](#web)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
+  - [Compilers](#compilers)
   - [Linters](#linters)
 - [Libraries](#libraries)
   - [Email](#email)
@@ -255,6 +256,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### make
 
 * [just](https://github.com/casey/just) - A command runner and partial replacement for `make`
+
+### Compilers
+
+#### [TypeScript Compiler](https://github.com/microsoft/TypeScript)
+
+* [swc](https://github.com/swc-project/swc) - swc is a super-fast compiler written in rust
 
 ### Linters
 
