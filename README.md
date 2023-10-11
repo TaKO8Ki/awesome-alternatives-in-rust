@@ -156,6 +156,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [sad](https://github.com/ms-jpq/sad) - CLI search and replace | Space Age seD
 * [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
 
+#### shred
+* [shred-rust](https://github.com/JuanJMarques/shred-rust) - An alternative to `shred` for securely delete files with thread support for deleting multiple files
+
 #### strings
 
 * [stringsext](https://github.com/getreu/stringsext) - Find multi-byte-encoded strings in binary data
