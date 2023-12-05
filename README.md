@@ -24,6 +24,8 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Linters](#linters)
 - [Libraries](#libraries)
   - [Email](#email)
+  - [Database](#database)
+    - [ORM](#orm)
 
 ## Applications
 
@@ -278,3 +280,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [mjml](https://github.com/mjmlio/mjml)
 
 * [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of mjml in Rust (~200x faster)
+
+### Database
+
+#### ORM
+
+* [njord](https://github.com/mjovanc/njord) - ⛵ A lightweight ORM library for Rust [![build status](https://github.com/mjovanc/njord/actions/workflows/ci.yml/badge.svg)](https://github.com/mjovanc/njord/actions/workflows/ci.yml)
