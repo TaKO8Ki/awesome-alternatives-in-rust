@@ -203,6 +203,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [termite](https://github.com/thestinger/termite)
 
 * [Alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
+* [WezTerm](https://wezfurlong.org/wezterm/index.html) - Powerful cross-platform terminal emulator and multiplexer implemented in Rust.
 
 #### [tmux](https://github.com/tmux/tmux)
 
@@ -213,6 +214,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### Vim
 
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
+* [Helix](https://helix-editor.com) - A post-modern text editor based on VIM (but with fundamental differences).
 
 ### Text processing
 
