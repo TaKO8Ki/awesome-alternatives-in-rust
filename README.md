@@ -226,6 +226,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
+#### [gtfToGenePred/genePredToGtf](https://hgdownload.soe.ucsc.edu/downloads.html#utilities_downloads)
+
+* [atg](https://github.com/anergictcell/atg) - Parse, check and convert genomic data file formats
+
 #### [jq](https://github.com/jqlang/jq)
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
