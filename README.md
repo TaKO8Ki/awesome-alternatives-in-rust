@@ -222,6 +222,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Utilities
 
+#### [Dragon NaturallySpeaking](https://www.nuance.com/dragon.html)
+
+* [dictee](https://github.com/rcspam/dictee) - Push-to-talk voice dictation for Linux — 100% local, multilingual (25+ languages), speaker diarization. Rust backend on NVIDIA Parakeet via ONNX Runtime
+
 #### [codemod](https://github.com/facebookarchive/codemod)
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
