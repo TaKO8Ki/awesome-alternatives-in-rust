@@ -247,6 +247,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [teddit](https://codeberg.org/teddit/teddit)
 
 * [libreddit](https://github.com/libreddit/libreddit) - Private front-end for Reddit written in Rust
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ## Development tools
 
