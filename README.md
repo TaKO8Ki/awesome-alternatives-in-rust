@@ -238,6 +238,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Furtherance](https://github.com/lakoliu/Furtherance) - Time-tracking app written in Rust
 
+#### [Wispr Flow](https://wisprflow.ai/)
+
+* [whisrs](https://github.com/y0sif/whisrs) - Linux voice-to-text dictation tool with offline whisper.cpp and cloud (Groq, Deepgram, OpenAI) backends
+
 ### Web
 
 #### Reddit
