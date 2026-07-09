@@ -1,7 +1,6 @@
+use anyhow::{format_err, Error};
 use chrono::{DateTime, Duration, Local};
-use failure::{format_err, Error, Fail};
 use futures::future::{select_all, BoxFuture, FutureExt};
-use lazy_static::lazy_static;
 use log::{debug, info, warn};
 use pulldown_cmark::{Event, Parser, Tag};
 use regex::Regex;
@@ -11,31 +10,33 @@ use std::collections::{BTreeMap, BTreeSet};
 use std::env;
 use std::fs;
 use std::io::Write;
+use std::sync::LazyLock;
 use std::time;
+use thiserror::Error as ThisError;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
 
-#[derive(Debug, Fail, Serialize, Deserialize)]
+#[derive(Debug, ThisError, Serialize, Deserialize)]
 enum CheckerError {
-    #[fail(display = "failed to try url")]
+    #[error("failed to try url")]
     NotTried, // Generally shouldn't happen, but useful to have
 
-    #[fail(display = "http error: {}", status)]
+    #[error("http error: {status}")]
     HttpError {
         status: u16,
         location: Option<String>,
     },
 
-    #[fail(display = "reqwest error: {}", error)]
+    #[error("reqwest error: {error}")]
     ReqwestError { error: String },
 
-    #[fail(display = "travis build is unknown")]
+    #[error("travis build is unknown")]
     TravisBuildUnknown,
 
-    #[fail(display = "travis build image with no branch")]
+    #[error("travis build image with no branch")]
     TravisBuildNoBranch,
 
-    #[fail(display = "github actions image with no branch")]
+    #[error("github actions image with no branch")]
     GithubActionNoBranch,
 }
 
@@ -80,7 +81,7 @@ impl MaxHandles {
     }
 
     async fn get(&self) -> Handle<'_> {
-        let permit = self.remaining.acquire().await;
+        let permit = self.remaining.acquire().await.expect("semaphore is closed");
         Handle { _permit: permit }
     }
 }
@@ -91,18 +92,23 @@ impl<'a> Drop for Handle<'a> {
     }
 }
 
-lazy_static! {
-    static ref CLIENT: Client = Client::builder()
-        .danger_accept_invalid_certs(true) // because some certs are out of date
-        .user_agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0") // so some sites (e.g. sciter.com) don't reject us
+static CLIENT: LazyLock<Client> = LazyLock::new(|| {
+    Client::builder()
+        // Some linked sites have out-of-date certificates.
+        .danger_accept_invalid_certs(true)
+        // Some sites, such as sciter.com, reject the default user agent.
+        .user_agent(
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0",
+        )
         .redirect(Policy::none())
-        .max_idle_per_host(0)
+        .pool_max_idle_per_host(0)
         .timeout(time::Duration::from_secs(20))
-        .build().unwrap();
+        .build()
+        .unwrap()
+});
 
-    // This is to avoid errors with running out of file handles, so we only do 20 requests at a time
-    static ref HANDLES: MaxHandles = MaxHandles::new(20);
-}
+// This is to avoid errors with running out of file handles, so we only do 20 requests at a time
+static HANDLES: LazyLock<MaxHandles> = LazyLock::new(|| MaxHandles::new(20));
 
 fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
     debug!("Need handle for {}", url);
@@ -118,10 +124,10 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
         let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
             debug!("Running {}", url);
-            lazy_static! {
-                static ref GITHUB_REPO_REGEX: Regex = Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)$").unwrap();
-                static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
-            }
+            static GITHUB_REPO_REGEX: LazyLock<Regex> =
+                LazyLock::new(|| Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)$").unwrap());
+            static GITHUB_API_REGEX: LazyLock<Regex> =
+                LazyLock::new(|| Regex::new(r"https://api.github.com/").unwrap());
             if env::var("GITHUB_USERNAME").is_ok() && env::var("GITHUB_TOKEN").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
                 let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
                 info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
@@ -152,11 +158,13 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                 Ok(ok) => {
                     let status = ok.status();
                     if status != StatusCode::OK {
-                        lazy_static! {
-                            static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
-                            static ref YOUTUBE_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
-                            static ref AZURE_BUILD_REGEX: Regex = Regex::new(r"https://dev.azure.com/[^/]+/[^/]+/_build").unwrap();
-                        }
+                        static ACTIONS_REGEX: LazyLock<Regex> = LazyLock::new(|| {
+                            Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap()
+                        });
+                        static YOUTUBE_REGEX: LazyLock<Regex> =
+                            LazyLock::new(|| Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap());
+                        static AZURE_BUILD_REGEX: LazyLock<Regex> =
+                            LazyLock::new(|| Regex::new(r"https://dev.azure.com/[^/]+/[^/]+/_build").unwrap());
                         if status == StatusCode::NOT_FOUND && ACTIONS_REGEX.is_match(&url) {
                             let rewritten = ACTIONS_REGEX.replace_all(&url, "https://github.com/$org/$repo");
                             warn!("Got 404 with Github actions, so replacing {} with {}", url, rewritten);
@@ -190,10 +198,11 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             continue;
                         }
                     }
-                    lazy_static! {
-                        static ref TRAVIS_IMG_REGEX: Regex = Regex::new(r"https://api.travis-ci.(?:com|org)/[^/]+/.+\.svg(\?.+)?").unwrap();
-                        static ref GITHUB_ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/[^/]+/[^/]+/workflows/[^/]+/badge.svg(\?.+)?").unwrap();
-                    }
+                    static TRAVIS_IMG_REGEX: LazyLock<Regex> =
+                        LazyLock::new(|| Regex::new(r"https://api.travis-ci.(?:com|org)/[^/]+/.+\.svg(\?.+)?").unwrap());
+                    static GITHUB_ACTIONS_REGEX: LazyLock<Regex> = LazyLock::new(|| {
+                        Regex::new(r"https://github.com/[^/]+/[^/]+/workflows/[^/]+/badge.svg(\?.+)?").unwrap()
+                    });
                     if let Some(matches) = TRAVIS_IMG_REGEX.captures(&url) {
                         // Previously we checked the Content-Disposition headers, but sometimes that is incorrect
                         // We're now looking for the explicit text "unknown" in the middle of the SVG
@@ -275,12 +284,10 @@ async fn main() -> Result<(), Error> {
 
     for (event, _) in parser.into_offset_iter() {
         match event {
-            Event::Start(tag) => match tag {
-                Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                    do_check(url.to_string());
-                }
-                _ => {}
-            },
+            Event::Start(Tag::Link { dest_url, .. })
+            | Event::Start(Tag::Image { dest_url, .. }) => {
+                do_check(dest_url.to_string());
+            }
             Event::Html(content) => {
                 return Err(format_err!(
                     "Contains HTML content, not markdown: {}",
@@ -385,7 +392,8 @@ async fn main() -> Result<(), Error> {
         }
     }
     if failed == 0 {
-        Ok(println!("No errors!"))
+        println!("No errors!");
+        Ok(())
     } else {
         Err(format_err!("{} urls with errors", failed))
     }
