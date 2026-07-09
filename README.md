@@ -12,6 +12,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 - [Applications](#applications)
   - [Container](#container)
   - [Games](#games)
+  - [Observability](#observability)
   - [Performance](#performance)
   - [System tools](#system-tools)
   - [Terminal](#terminal)
@@ -21,9 +22,14 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Web](#web)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
+  - [Compilers](#compilers)
   - [Linters](#linters)
+  - [Runtimes](#runtimes)
 - [Libraries](#libraries)
   - [Email](#email)
+  - [Machine learning](#machine-learning)
+  - [Message queues](#message-queues)
+  - [Search](#search)
 
 ## Applications
 
@@ -31,13 +37,19 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [runc](https://github.com/opencontainers/runc)
 
-* [youki](https://github.com/containers/youki) - An experimental container runtime written in Rust
+* [youki](https://github.com/youki-dev/youki) - An experimental container runtime written in Rust
 
 ### Games
 
 #### [Stockfish](https://github.com/official-stockfish/Stockfish/)
 
 * [Pleco](https://github.com/pleco-rs/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
+
+### Observability
+
+#### [Elasticsearch](https://github.com/elastic/elasticsearch)
+
+* [Quickwit](https://github.com/quickwit-oss/quickwit) - A cloud-native search engine for observability written in Rust
 
 ### Performance
 
@@ -63,7 +75,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### bc
 
 * [cpc](https://github.com/probablykasper/cpc) - Text calculator with support for units and conversion
-* [eva](https://github.com/NerdyPepper/eva) - a calculator REPL, similar to bc(1) 
+* [eva](https://github.com/oppiliappan/eva) - a calculator REPL, similar to bc(1) 
 
 #### cat
 
@@ -106,7 +118,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [fzf](https://github.com/junegunn/fzf)
 
-* [skim](https://github.com/lotabout/skim) - Fuzzy Finder in rust!
+* [skim](https://github.com/skim-rs/skim) - Fuzzy Finder in rust!
 
 #### [GNU coreutils](https://github.com/coreutils/coreutils)
 
@@ -116,13 +128,13 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
 
-#### [httpie](https://github.com/httpie/httpie)
+#### [httpie](https://github.com/httpie/cli)
 
 * [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
 
 #### ls
 
-* [exa](https://github.com/ogham/exa) - A replacement for 'ls'
+* [eza](https://github.com/eza-community/eza) - A replacement for 'ls'
 * [lsd](https://github.com/lsd-rs/lsd) - An ls with a lot of pretty colors and awesome icons
 * [nat](https://github.com/willdoescode/nat) - `ls` alternative with useful info and a splash of color 🎨
 
@@ -174,13 +186,15 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [tldr](https://github.com/tldr-pages/tldr)
 
+* [intelli-shell](https://github.com/lasantosr/intelli-shell) - Like IntelliSense, but for shells
 * [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
-* [tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
+* [tealdeer](https://github.com/tealdeer-rs/tealdeer) - A very fast implementation of tldr in Rust.
 
 #### top
 
 * [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
 * [ytop](https://github.com/cjbassi/ytop) (no longer maintained) - A TUI system monitor written in Rust
+* [zenith](https://github.com/bvaisvil/zenith) - A terminal system monitor with zoomable charts
 
 #### uniq
 
@@ -203,6 +217,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [termite](https://github.com/thestinger/termite)
 
 * [Alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
+* [WezTerm](https://github.com/wezterm/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
 
 #### [tmux](https://github.com/tmux/tmux)
 
@@ -213,6 +228,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### Vim
 
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
+* [Helix](https://github.com/helix-editor/helix) - A post-modern modal text editor
 
 ### Text processing
 
@@ -232,11 +248,11 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [lazygit](https://github.com/jesseduffield/lazygit)
 
-* [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
+* [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
 #### [Toggl Track](https://github.com/toggl/toggldesktop)
 
-* [Furtherance](https://github.com/lakoliu/Furtherance) - Time-tracking app written in Rust
+* [Furtherance](https://github.com/unobserved-io/Furtherance) - Time-tracking app written in Rust
 
 ### Web
 
@@ -256,12 +272,22 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [just](https://github.com/casey/just) - A command runner and partial replacement for `make`
 
+### Compilers
+
+#### [TypeScript Compiler](https://github.com/microsoft/TypeScript)
+
+* [SWC](https://github.com/swc-project/swc) - A Rust-based platform for the web
+
 ### Linters
 
 #### [ESLint](https://github.com/eslint/eslint)
 
 * [deno_lint](https://github.com/denoland/deno_lint) - Blazing fast linter for JavaScript and TypeScript written in Rust
 * [RSLint](https://github.com/rslint/rslint) - A (WIP) Extremely fast JavaScript and TypeScript linter and Rust crate
+
+#### [Flake8](https://github.com/PyCQA/flake8)
+
+* [Ruff](https://github.com/astral-sh/ruff) - An extremely fast Python linter and code formatter written in Rust
 
 #### [Prettier](https://github.com/prettier/prettier)
 
@@ -271,6 +297,16 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Shellharden](https://github.com/anordal/shellharden) - The corrective bash syntax highlighter
 
+### Runtimes
+
+#### [Node.js](https://github.com/nodejs/node)
+
+* [Deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript written in Rust
+
+#### [Python](https://github.com/python/cpython)
+
+* [RustPython](https://github.com/RustPython/RustPython) - A Python interpreter written in Rust
+
 ## Libraries
 
 ### Email
@@ -278,3 +314,21 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [mjml](https://github.com/mjmlio/mjml)
 
 * [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of mjml in Rust (~200x faster)
+
+### Machine learning
+
+#### [PyTorch](https://github.com/pytorch/pytorch)
+
+* [tch-rs](https://github.com/LaurentMazare/tch-rs) - Rust bindings for the C++ API of PyTorch
+
+### Message queues
+
+#### [Apache RocketMQ](https://github.com/apache/rocketmq)
+
+* [rocketmq-rust](https://github.com/mxsm/rocketmq-rust) - An Apache RocketMQ implementation written in Rust
+
+### Search
+
+#### [Apache Lucene](https://github.com/apache/lucene)
+
+* [Tantivy](https://github.com/quickwit-oss/tantivy) - A full-text search engine library inspired by Apache Lucene and written in Rust
