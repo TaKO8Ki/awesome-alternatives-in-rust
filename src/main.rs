@@ -275,12 +275,10 @@ async fn main() -> Result<(), Error> {
 
     for (event, _) in parser.into_offset_iter() {
         match event {
-            Event::Start(tag) => match tag {
-                Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                    do_check(url.to_string());
-                }
-                _ => {}
-            },
+            Event::Start(Tag::Link(_link_type, url, _title))
+            | Event::Start(Tag::Image(_link_type, url, _title)) => {
+                do_check(url.to_string());
+            }
             Event::Html(content) => {
                 return Err(format_err!(
                     "Contains HTML content, not markdown: {}",
@@ -385,7 +383,8 @@ async fn main() -> Result<(), Error> {
         }
     }
     if failed == 0 {
-        Ok(println!("No errors!"))
+        println!("No errors!");
+        Ok(())
     } else {
         Err(format_err!("{} urls with errors", failed))
     }
