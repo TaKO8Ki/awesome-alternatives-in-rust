@@ -5,6 +5,7 @@ authors = ["Takayuki Maeda <takoyaki0316@gmail.com>"]
 edition = "2018"
 homepage = "https://github.com/TaKO8Ki/awesome-rewrite-it-in-rust"
 repository = "https://github.com/TaKO8Ki/awesome-rewrite-it-in-rust"
+license = "MIT"
 default-run = "awesome-rewrite-it-in-rust"
 
 [dependencies]
