@@ -67,8 +67,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
 
-#### bash/PowerShell/fish
+#### bash/PowerShell
 
+* [fish](https://fishshell.com/) - Does most of what oh-my-zsh does, but faster and nicer. Rewritten in rust in 2024.
 * [ion](https://github.com/redox-os/ion) - A modern shell developed for RedoxOS. But is still capable on \*nix platforms.
 * [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
 
