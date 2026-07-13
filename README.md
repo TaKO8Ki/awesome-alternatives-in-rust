@@ -11,6 +11,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 - [Applications](#applications)
   - [Container](#container)
+  - [Database](#database)
   - [Games](#games)
   - [Observability](#observability)
   - [Performance](#performance)
@@ -38,6 +39,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [runc](https://github.com/opencontainers/runc)
 
 * [youki](https://github.com/youki-dev/youki) - An experimental container runtime written in Rust
+
+### Database
+
+#### [PostgreSQL](https://github.com/postgres/postgres)
+
+* [pgrust](https://github.com/malisper/pgrust) - Postgres rewritten in Rust, now passing 100% of the Postgres regression tests
 
 ### Games
 
