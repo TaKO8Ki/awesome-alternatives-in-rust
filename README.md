@@ -139,6 +139,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
 
+#### [iStat Menus](https://bjango.com/mac/istatmenus/)
+
+* [featherbar](https://github.com/nim444/featherbar) - A featherweight macOS menu-bar system monitor showing CPU, RAM, power, and temperature
+
 #### ls
 
 * [eza](https://github.com/eza-community/eza) - A replacement for 'ls'
