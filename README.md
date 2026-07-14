@@ -13,6 +13,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Container](#container)
   - [Database](#database)
   - [Games](#games)
+  - [Networking](#networking)
   - [Observability](#observability)
   - [Performance](#performance)
   - [System tools](#system-tools)
@@ -51,6 +52,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [Stockfish](https://github.com/official-stockfish/Stockfish/)
 
 * [Pleco](https://github.com/pleco-rs/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
+
+### Networking
+
+#### [frp](https://github.com/fatedier/frp)
+
+* [MoonProxy Desktop](https://github.com/MoonProxyHQ/moonproxy-desktop) — A cross-platform desktop GUI client for frp (frpc), with a Rust backend (Tauri), making intranet penetration accessible to non-technical users on macOS and Windows.
 
 ### Observability
 
