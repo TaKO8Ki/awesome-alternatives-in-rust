@@ -285,6 +285,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [SWC](https://github.com/swc-project/swc) - A Rust-based platform for the web
 
+### Documentation
+
+#### adr-tools
+
+* [adrs](https://github.com/joshrotenberg/adrs) -  Command-line tools for working with Architecture Decision Records.
+
 ### Linters
 
 #### [ESLint](https://github.com/eslint/eslint)
