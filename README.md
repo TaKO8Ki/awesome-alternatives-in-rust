@@ -113,6 +113,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### dig
 
 * [dog](https://github.com/ogham/dog) - A command-line DNS client.
+* [dqy](https://github.com/dandyvica/dqy) - A DNS query tool inspired by `dig`, `drill`, and `dog`.
 
 #### du
 
