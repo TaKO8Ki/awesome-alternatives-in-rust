@@ -145,6 +145,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [lsd](https://github.com/lsd-rs/lsd) - An ls with a lot of pretty colors and awesome icons
 * [nat](https://github.com/willdoescode/nat) - `ls` alternative with useful info and a splash of color 🎨
 
+#### [npkill](https://github.com/voidcosmos/npkill)
+
+* [dev-sweeper](https://github.com/dvigo/dev-sweeper) - Blazing fast cross-platform TUI to safely clean up massive dependency folders (node_modules, target, venv, vendor) from inactive projects.
+
 #### [nvm](https://github.com/nvm-sh/nvm)
 
 * [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
