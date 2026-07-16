@@ -22,6 +22,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Utilities](#utilities)
   - [Web](#web)
 - [Development tools](#development-tools)
+  - [AI coding agents](#ai-coding-agents)
   - [Command runners](#command-runners)
   - [Compilers](#compilers)
   - [Linters](#linters)
@@ -272,6 +273,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [libreddit](https://github.com/libreddit/libreddit) - Private front-end for Reddit written in Rust
 
 ## Development tools
+
+### AI coding agents
+
+#### [Codex CLI](https://github.com/openai/codex)
+
+* [Tura](https://github.com/Tura-AI/tura) — A local, open-source coding agent with terminal, TUI, and desktop interfaces.
 
 ### Command runners
 
