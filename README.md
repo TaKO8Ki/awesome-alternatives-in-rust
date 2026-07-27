@@ -249,6 +249,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
+#### Internet Download Manager
+
+* [FluxDown](https://github.com/zerx-lab/FluxDown) - A multi-protocol download manager with IDM-style dynamic segmentation, written in Rust
+
 #### [jq](https://github.com/jqlang/jq)
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
