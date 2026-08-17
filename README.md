@@ -257,6 +257,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
+#### [Spek](https://github.com/alexkay/spek)
+
+* [sgram-tui](https://github.com/arian-shamaei/sgram-tui) - A calibrated spectrogram analyzer for the terminal: live mic or audio files, measurement readouts, and labeled PNG figure export
+
 #### [Toggl Track](https://github.com/toggl/toggldesktop)
 
 * [Furtherance](https://github.com/unobserved-io/Furtherance) - Time-tracking app written in Rust
