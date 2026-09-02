@@ -46,6 +46,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [pgrust](https://github.com/malisper/pgrust) - Postgres rewritten in Rust, now passing 100% of the Postgres regression tests
 
+#### [Redis](https://github.com/redis/redis)
+
+* [wedb_embed](https://github.com/webc-site/wedb_embed) - An embedded disk-backed database engine providing Redis-compatible data structures in Rust
+
 ### Games
 
 #### [Stockfish](https://github.com/official-stockfish/Stockfish/)
