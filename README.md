@@ -25,6 +25,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Command runners](#command-runners)
   - [Compilers](#compilers)
   - [Linters](#linters)
+  - [Release tools](#release-tools)
   - [Runtimes](#runtimes)
 - [Libraries](#libraries)
   - [Email](#email)
@@ -303,6 +304,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [ShellCheck](https://github.com/koalaman/shellcheck)
 
 * [Shellharden](https://github.com/anordal/shellharden) - The corrective bash syntax highlighter
+
+### Release tools
+
+#### [semantic-release](https://github.com/semantic-release/semantic-release)
+
+* [FerrFlow](https://github.com/FerrLabs/FerrFlow) - Semantic versioning and release automation for monorepos and classic repos, driven by Conventional Commits
 
 ### Runtimes
 
