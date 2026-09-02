@@ -20,6 +20,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
   - [Utilities](#utilities)
+  - [Version control](#version-control)
   - [Web](#web)
 - [Development tools](#development-tools)
   - [Command runners](#command-runners)
@@ -260,6 +261,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [Toggl Track](https://github.com/toggl/toggldesktop)
 
 * [Furtherance](https://github.com/unobserved-io/Furtherance) - Time-tracking app written in Rust
+
+### Version control
+
+#### [lfs-test-server](https://github.com/git-lfs/lfs-test-server)
+
+* [LFSX](https://github.com/FerrLabs/LFSX) - A fast, lightweight, secure Git LFS server with deduplication, file locking and permissions delegated to the upstream forge
 
 ### Web
 
