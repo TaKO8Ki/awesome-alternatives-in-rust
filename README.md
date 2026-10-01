@@ -207,6 +207,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [huniq](https://github.com/koraa/huniq) - Filter out duplicates on the command line.
 
+### which
+* [anywhich](https://github.com/rokuroo171/anywhich) - A replacement for `which` that walks `PATH` and queries package managers directly.
+
+
 #### xargs
 
 * [rargs](https://github.com/lotabout/rargs) - A kind of xargs + awk with pattern-matching support.
