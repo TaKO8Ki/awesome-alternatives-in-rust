@@ -31,6 +31,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Machine learning](#machine-learning)
   - [Message queues](#message-queues)
   - [Search](#search)
+  - [Telephony](#telephony)
 
 ## Applications
 
@@ -339,3 +340,9 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [Apache Lucene](https://github.com/apache/lucene)
 
 * [Tantivy](https://github.com/quickwit-oss/tantivy) - A full-text search engine library inspired by Apache Lucene and written in Rust
+
+### Telephony
+
+#### [PJSIP](https://github.com/pjsip/pjproject)
+
+* [sipral](https://github.com/SIPRAL/sipral) - SIP client stack with a C ABI and bindings for Swift, Kotlin, .NET, Python, Dart and React Native
