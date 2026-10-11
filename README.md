@@ -160,7 +160,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [qemu-guest-agent](https://www.qemu.org/docs/master/interop/qemu-ga.html)
 
-* [virtainer-guest-agent](https://github.com/virtainer/virtainer-guest-agent) - QEMU Guest Agent-compatible Rust agent for x86_64 Linux VMs on Cloud Hypervisor, using vsock and distributed as a static binary
+* [virtainer-guest-agent](https://github.com/virtainer/virtainer-guest-agent) - A modern guest agent for Linux and Windows virtual machines that speaks the QEMU Guest Agent protocol over vsock
 
 #### [rbenv](https://github.com/rbenv/rbenv)
 
