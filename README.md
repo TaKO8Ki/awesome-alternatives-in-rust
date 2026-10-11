@@ -158,6 +158,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
 
+#### [qemu-guest-agent](https://www.qemu.org/docs/master/interop/qemu-ga.html)
+
+* [virtainer-guest-agent](https://github.com/virtainer/virtainer-guest-agent) - A modern guest agent for Linux and Windows virtual machines that speaks the QEMU Guest Agent protocol over vsock
+
 #### [rbenv](https://github.com/rbenv/rbenv)
 
 * [frum](https://github.com/TaKO8Ki/frum) - A little bit fast and modern Ruby version manager written in Rust
