@@ -22,6 +22,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Utilities](#utilities)
   - [Web](#web)
 - [Development tools](#development-tools)
+  - [AI coding agents](#ai-coding-agents)
   - [Command runners](#command-runners)
   - [Compilers](#compilers)
   - [Linters](#linters)
@@ -272,6 +273,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [libreddit](https://github.com/libreddit/libreddit) - Private front-end for Reddit written in Rust
 
 ## Development tools
+
+### AI coding agents
+
+#### [opencode](https://github.com/anomalyco/opencode)
+
+* [opencode-rust](https://github.com/vakandi/opencode-rust) - An independent Rust implementation of the TypeScript opencode AI coding agent, with a CLI, a TUI and an HTTP server. MIT licensed, 21 crates and 571 tests, no Docker required. Command is `opr`
 
 ### Command runners
 
