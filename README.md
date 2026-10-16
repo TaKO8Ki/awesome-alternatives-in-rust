@@ -119,6 +119,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 * [dua](https://github.com/Byron/dua-cli) - View disk space usage and delete unwanted data, fast.
 * [dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
 
+#### [f3](https://github.com/AltraMayor/f3) / [h2testw](https://www.heise.de/download/product/h2testw-50539)
+
+* [FlashTester](https://github.com/Dissimilis/FlashTester) - Tests USB sticks, SD cards and disks for fake capacity, data loss and speed
+
 #### find
 
 * [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
