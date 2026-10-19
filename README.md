@@ -109,6 +109,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [delta](https://github.com/dandavison/delta) - A viewer for git and diff output
 * [difftastic](https://github.com/Wilfred/difftastic) - A structural diff that understands syntax
+* [Glim](https://github.com/NeoPanic/Glim) — A macOS file viewer with graphical Git diff previews and staging controls.
 
 #### dig
 
