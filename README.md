@@ -249,6 +249,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
+#### Evernote / Notion
+
+* [Koru](https://github.com/koruworks/mono) - A local-first desktop workspace for notes, documents and files with peer-to-peer device sync, for Windows and macOS
+
 #### [jq](https://github.com/jqlang/jq)
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
