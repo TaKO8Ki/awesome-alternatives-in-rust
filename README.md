@@ -322,6 +322,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [mrml](https://github.com/jdrouet/mrml) - Blazing fast reimplementation of mjml in Rust (~200x faster)
 
+#### [Thunderbird](https://github.com/thunderbird/thunderbird-desktop)
+
+* [rusty-inbox](https://github.com/karem505/rusty-inbox) - Native desktop email client with a Rust IMAP/SMTP engine and a Qt 6 / QML interface
+
 ### Machine learning
 
 #### [PyTorch](https://github.com/pytorch/pytorch)
