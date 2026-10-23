@@ -257,6 +257,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
+#### [LocalSend](https://github.com/localsend/localsend)
+
+* [RustSend](https://github.com/AimesSoft/RustSend) — A LocalSend-compatible file transfer app written in Rust, with native UI built using Bern.
+
 #### [Toggl Track](https://github.com/toggl/toggldesktop)
 
 * [Furtherance](https://github.com/unobserved-io/Furtherance) - Time-tracking app written in Rust
