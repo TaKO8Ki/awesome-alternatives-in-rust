@@ -232,6 +232,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Text editors
 
+#### Microsoft Word
+
+* [Rewrite](https://github.com/SamratDuttaOfficial/Rewrite) - Rewrites text, fixes grammar, and edits Word, LaTeX and PDF files.
+
 #### Vim
 
 * [Amp](https://github.com/jmacdonald/amp) - A complete text editor for your terminal.
