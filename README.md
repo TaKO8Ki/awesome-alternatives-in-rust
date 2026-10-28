@@ -263,6 +263,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Web
 
+#### [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)
+
+* [cliproxy-rs](https://github.com/vayungodara/cliproxy-rs) - Rust rewrite of CLIProxyAPI that reads the same config and credential files; one local endpoint for Codex CLI, Claude Code and Gemini clients, with API translation and multi-key failover
+
 #### Reddit
 
 * [Lemmy](https://github.com/LemmyNet/lemmy) - 🐀 Building a federated alternative to reddit in rust
