@@ -76,6 +76,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### bash/PowerShell/fish
 
+* [cash](https://github.com/tomcoolpxl/cash) - A Bash 5.3 shell for Windows on the Win32 execution model, with the Unix userland built in
 * [ion](https://github.com/redox-os/ion) - A modern shell developed for RedoxOS. But is still capable on \*nix platforms.
 * [nushell](https://github.com/nushell/nushell/) - An attractive structured shell
 
