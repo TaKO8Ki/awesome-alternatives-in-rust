@@ -257,6 +257,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
+#### [Punto Switcher](https://yandex.ru/soft/punto/)
+
+* [lang-switcher](https://github.com/panda-pishet-kod/lang-switcher) — Windows tray tool that fixes the last word typed in the wrong keyboard layout on a Pause/Break press
+
 #### [Toggl Track](https://github.com/toggl/toggldesktop)
 
 * [Furtherance](https://github.com/unobserved-io/Furtherance) - Time-tracking app written in Rust
