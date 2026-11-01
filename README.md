@@ -257,6 +257,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
+#### [S3 Browser](https://s3browser.com/)
+
+* [BucketBridge](https://github.com/anupshaw50/BucketBridge) - Open-source S3 client for Windows, macOS and Linux, with a desktop app and a CLI on one Rust core
+
 #### [Toggl Track](https://github.com/toggl/toggldesktop)
 
 * [Furtherance](https://github.com/unobserved-io/Furtherance) - Time-tracking app written in Rust
