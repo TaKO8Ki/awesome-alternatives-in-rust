@@ -13,6 +13,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
   - [Container](#container)
   - [Database](#database)
   - [Games](#games)
+  - [MLOps](#mlops)
   - [Observability](#observability)
   - [Performance](#performance)
   - [System tools](#system-tools)
@@ -51,6 +52,12 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 #### [Stockfish](https://github.com/official-stockfish/Stockfish/)
 
 * [Pleco](https://github.com/pleco-rs/Pleco) - A Rust-based re-write of the Stockfish Chess Engine 
+
+### MLOps
+
+#### [LiteLLM](https://github.com/BerriAI/litellm)
+
+* [Kaeso](https://github.com/logicplanes/kaeso) - Self-hosted AI gateway written in Rust, with OpenAI- and Anthropic-compatible APIs, SSO, budgets and request logs
 
 ### Observability
 
