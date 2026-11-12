@@ -60,7 +60,7 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 #### [Sentry](https://github.com/getsentry/sentry)
 
-* [Epure](https://github.com/epure-sh/epure) - Lightweight self-hosted error tracker compatible with the Sentry SDK
+* [Epure](https://github.com/epure-sh/epure) - Error tracking that keeps your Sentry SDK (change the DSN). Errors only, Rust + Postgres
 
 ### Performance
 
