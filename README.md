@@ -58,6 +58,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [Quickwit](https://github.com/quickwit-oss/quickwit) - A cloud-native search engine for observability written in Rust
 
+#### [Sentry](https://github.com/getsentry/sentry)
+
+* [Epure](https://github.com/epure-sh/epure) - Error tracking that keeps your Sentry SDK (change the DSN). Errors only, Rust + Postgres
+
 ### Performance
 
 #### [jMeter](https://github.com/apache/jmeter)
