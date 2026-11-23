@@ -249,6 +249,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
 
+#### [Internet Download Manager](https://www.internetdownloadmanager.com/)
+
+* [Prism](https://github.com/FortoGraphy/prism-download-manager) - Free, open-source download manager for Windows, macOS and Linux with up to 32 connections per file, browser integration and crash-safe resume
+
 #### [jq](https://github.com/jqlang/jq)
 
 * [jql](https://github.com/yamafaktory/jql) - A JSON Query Language CLI tool built with Rust 🦀
