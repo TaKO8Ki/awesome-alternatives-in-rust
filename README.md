@@ -207,6 +207,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [huniq](https://github.com/koraa/huniq) - Filter out duplicates on the command line.
 
+#### Windows File Explorer
+
+* [rustyfiles](https://github.com/gelenmedya/rustyfiles) - A file manager for Windows that never freezes, with tabs, dual panes and quick previews
+
 #### xargs
 
 * [rargs](https://github.com/lotabout/rargs) - A kind of xargs + awk with pattern-matching support.
