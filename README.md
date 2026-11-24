@@ -257,6 +257,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal-ui for git written in Rust 🦀
 
+#### [Raycast](https://www.raycast.com/)
+
+* [Tomoyo](https://github.com/q871958549/Tomoyo) - Ultra-low-memory native Rust desktop launcher for Linux (Wayland/X11) and Windows with Everything IPC, clipboard manager, offline OCR, and WASM/STDIO/WebView plugins
+
 #### [Toggl Track](https://github.com/toggl/toggldesktop)
 
 * [Furtherance](https://github.com/unobserved-io/Furtherance) - Time-tracking app written in Rust
