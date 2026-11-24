@@ -46,6 +46,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 * [pgrust](https://github.com/malisper/pgrust) - Postgres rewritten in Rust, now passing 100% of the Postgres regression tests
 
+#### [Redis](https://github.com/redis/redis)
+
+* [ReRu](https://github.com/mansiverma897993/ReRu) - A Redis-compatible RESP2 cache and data-structure server in safe Rust, with TTLs, persistence, replication and streams
+
 ### Games
 
 #### [Stockfish](https://github.com/official-stockfish/Stockfish/)
