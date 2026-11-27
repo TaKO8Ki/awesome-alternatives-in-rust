@@ -245,6 +245,10 @@ I renamed the repository to "Awesome Alternatives in Rust". The original name wa
 
 ### Utilities
 
+#### [BleachBit](https://github.com/bleachbit/bleachbit)
+
+* [FreeMyDisk](https://github.com/fzihak/FreeMyDisk) - Safe disk cleaner for Windows with risk-labeled rules and Recycle Bin-first deletes
+
 #### [codemod](https://github.com/facebookarchive/codemod)
 
 * [fastmod](https://github.com/facebookincubator/fastmod) - A fast partial replacement for the codemod tool
